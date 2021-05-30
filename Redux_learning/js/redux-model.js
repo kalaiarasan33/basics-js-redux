@@ -74,4 +74,4 @@ store.dispatch(newBooking("kalai",200));
 store.dispatch(newBooking("hardhik",200));
 store.dispatch(cancelBooking("chandru",300));
 console.log(store.getState());
-
+console.log(store.getState().accounting);
